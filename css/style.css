@@ -22,7 +22,7 @@
 body {
 	padding-top: 120px;
 }
-li {
+.list {
 	display: inline-block;
 	margin-right: 50px;
     color: #181C28;
@@ -44,7 +44,7 @@ li {
 h1 {
 	font-size: 48px;
 }
-h3 {
+.first {
 	font-size: 22px;
 }
 h2 {
@@ -103,8 +103,6 @@ h2 {
 	height:23px;
 	color: #FFFFFF;
 	font-size: 16px;
-	/*padding-top: 23px;
-	padding-right: 48px;*/
 }
 .box2 {
 	width: 190px;
@@ -123,4 +121,54 @@ h2 {
 	width:1600px;
 	height: 266px;
 	margin-top: 134px;
+}
+/*footer*/
+.size1 {
+	margin-top: 82px;
+	margin-bottom: 15px;
+}
+.size2 {
+	margin-bottom: 22px;
+}
+.block1 {
+	float: left;
+}
+.float::after {
+	content: ' ';
+	clear:both;
+	display:block;
+}
+.list1 {
+	float: left;
+	margin-bottom: 205px;
+	color: #7B7B7B;
+	font-size: 16px;
+}
+.service {
+	margin-left: 198px;
+}
+.order {
+	margin-left: 242px;
+}
+.pay {
+	margin-left:217px; 
+}
+.american {
+	margin-top: 13px;
+}
+.master {
+	margin-top:24px;
+	margin-left:14px;
+	margin-right:11.5px;
+}
+.visa {
+	margin-top: 24px;
+}
+h6 {
+	float: right;
+	margin-top: 160px;
+	margin-right: 142px;
+	margin-bottom: 137px;
+	color: #A4A4A4;
+	font-size: 16px;
 }
